@@ -5,6 +5,9 @@ import { Sparklines, SparklinesLine, SparklinesBars } from 'react-sparklines';
 class WeatherList extends Component{
 
 	renderList(data){
+
+		console.log(data)
+
 		const city = data.city.name;
 		const country = data.city.country;
 		const t = celcius(data.list[0].main.temp);		
@@ -14,7 +17,7 @@ class WeatherList extends Component{
 
 		const weather = data.list.map(weather=> weather.main.temp)
 		const pressure = data.list.map(weather=> weather.main.pressure)
-		const humidity = data.list.map(weather=> weather.main.humidity)
+		const humidity = data.list.map(weather=> weather.main.humidity) 
 
 		function pressureConvert(kpa){
 			return Math.round(kpa / 10);

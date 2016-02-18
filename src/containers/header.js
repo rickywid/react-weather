@@ -50,6 +50,11 @@ class Header extends Component {
 							<option value="ca">Canada</option>
 							<option value="us">USA</option>
 							<option value="au">Australia</option>
+							<option value="kh">Cambodia</option>
+							<option value="th">Thailand</option>
+							<option value="mm">Myanmar</option>
+							<option value="la">Laos</option>
+							<option value="kr">South Korea</option>
 							<option value="jp">Japan</option>
 						</select>
 					</div>

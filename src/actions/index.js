@@ -9,10 +9,10 @@ export function GetWeatherAction(city, country){
 	const url = `${ROOT_URL}&q=${city},${country}`; 
 
 	const request = axios.get(url); 
-	console.log(city + " " + country)	
+	console.log(request)	
 	return {
 		type: FETCH_WEATHER,
 		payload: request    //redux-promise checks to see if the action has a promise as a payload.
 	}						//if no, it allows payload through to the reducers
 }							//if yes, stops the action, and waits for promise to resolve then creates a 
-							//new action and sends to reducers.
+							//new action and sends to reducers.  

@@ -10,6 +10,7 @@ export default class App extends Component {
       	<div className="row">
       		<div className="col-md-12 head">
       			<h1 className="title">WEATHER FORECAST</h1>
+            <h6>A web app based off of Stephen Grider's Udemy React <a href="https://www.udemy.com/react-redux">course</a></h6>
       		</div>
       	</div>
       	<Header />
