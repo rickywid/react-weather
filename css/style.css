@@ -4,8 +4,8 @@ body {
 	background-size: cover;
 	background-position: center;
 	background-color: white;
-	padding-bottom: 100px;
-	min-height: 700px;
+	padding-bottom: 50px;
+	min-height: 1000px;
 	font-family: 'Raleway', sans-serif;
 	color: rgb(145, 145, 145);
 }
@@ -140,4 +140,10 @@ hr {
 .ct-series-a .ct-line,
 .ct-series-a .ct-point {
   stroke: #BB3232;
+}
+
+@media screen and (max-width: 980px){
+	.select-options {
+		margin-top: 15px;
+	}
 }
