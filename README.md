@@ -5,6 +5,6 @@ Installation
 git clone https://github.com/rickywid/react-weather.git
 npm install
 npm start
-url: localhost:8080
+browser url: localhost:8080
 
 ```
