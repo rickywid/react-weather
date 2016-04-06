@@ -100,10 +100,10 @@ class WeatherList extends Component{
 	    return (
 	    	<div>
 	    		<h5 className="search-result">{moment().format("dddd, MMMM Do YYYY")} - {city}, {country}</h5>
-	    		<ChartistGraph className={size} data={data} options={options} type={type} />
+	    		<ChartistGraph className={"animated fadeInUp" + " " + size} data={data} options={options} type={type} />
 	    		<hr/>
 
-	    		<div className="icon-forecast">
+	    		<div className="icon-forecast animated fadeInUp">
 					<div className="row">
 					    <div className="col-md-2 col-md-offset-1">
 						    <div className="panel panel-default">
