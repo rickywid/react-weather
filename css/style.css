@@ -6,10 +6,8 @@ body {
 	background-color: white;
 	padding-bottom: 100px;
 	min-height: 700px;
-}
-
-.container {
-	font-family: "garamond";
+	font-family: 'Raleway', sans-serif;
+	color: rgb(145, 145, 145);
 }
 
 a {
@@ -49,16 +47,18 @@ hr {
 }
 
 .form-control {
-	background-color: transparent;
+	background-color: rgba(0,0,0,0.1);
 	height: 82px;
 	font-size: 3.5em;
 	border: 1px solid rgb(152, 152, 152);
+	color: white;
 }
 
 .select-options {
 	font-size: 1em;
 	height: 34px;
 	margin-bottom: 10px;
+	color: black;
 }
 
 .btn-primary{
