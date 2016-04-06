@@ -12,8 +12,10 @@ export default class App extends Component {
       			<h1 className="title">WEATHER FORECAST</h1>
       		</div>
       	</div>
+
       	<Header />
       	<WeatherList />
+        
       </div>
     );
   }

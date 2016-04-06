@@ -36,7 +36,7 @@ class Header extends Component {
 		return(
 			<div className="col-md-12 form">
 				<form onSubmit = { this.onHandleSubmit }>
-					<div className="col-md-6">
+					<div className="col-md-8">
 						<input  type = "text" 
 								className = "form-control" 
 								value = { this.state.term }
@@ -46,7 +46,7 @@ class Header extends Component {
 						/>
 					</div>
 					<div className="col-md-4">
-						<select id="country" className="form-control" onChange={this.onHandleSelect}>
+						<select id="country" className="form-control select-options" onChange={this.onHandleSelect}>
 							<option value="ca">Canada</option>
 							<option value="us">USA</option>
 							<option value="au">Australia</option>
@@ -57,8 +57,6 @@ class Header extends Component {
 							<option value="kr">South Korea</option>
 							<option value="jp">Japan</option>
 						</select>
-					</div>
-					<div className="col-md-2">
 						<button type="submit" className="btn btn-primary">Search</button>
 					</div>
 				</form>

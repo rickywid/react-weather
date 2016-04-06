@@ -1,0 +1,142 @@
+body {
+	background: linear-gradient(rgba(255,255,255,1), rgba(0,0,0,0.6)), url('bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: white;
+	padding-bottom: 100px;
+	min-height: 700px;
+}
+
+.container {
+	font-family: "garamond";
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.head{
+	padding-bottom: 30px;
+	text-align: center
+}
+
+.title {
+	padding: 80px 0 0 0;
+	text-align: center;
+}
+
+hr {
+	border-top: 1px solid #5E6D80;
+}
+
+.search-result {
+	padding-left: 30px;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+/*
+======================================
+							FORM
+======================================
+*/
+.form {
+	padding-bottom: 20px;
+}
+
+.form-control {
+	background-color: transparent;
+	height: 82px;
+	font-size: 3.5em;
+	border: 1px solid rgb(152, 152, 152);
+}
+
+.select-options {
+	font-size: 1em;
+	height: 34px;
+	margin-bottom: 10px;
+}
+
+.btn-primary{
+	color:#fff;
+	background-color: #5AA1DF;
+	border-color: #4F8DC3;
+	width: 100%;
+	font-weight: bold;
+}
+
+/*
+======================================
+							PANEL
+======================================
+*/
+
+.panel {
+	background-color: rgba(0,0,0,0.5);
+	border: none;
+	padding: 10px;
+	color: white;
+}
+
+.panel-default > .panel-heading {
+	margin-bottom: 10px;
+	background-color: transparent;
+	border-color: #6C968D;
+	padding: 0px 15px 7px;
+}
+
+.panel-title {
+	font-weight: bold;
+	color: white;
+	text-align: right;
+	font-size: 2em;
+}
+
+.panel-body {
+	text-align: center;
+}
+
+.weather-detail {
+	margin: 0;
+	text-align: right;
+	font-weight: bolder;
+}
+
+/*
+======================================
+							ICONS
+======================================
+*/
+
+.wi {
+	font-size: 5em;		
+	color: white;
+}
+
+.chart {
+	margin-top: 100px;
+}
+
+/*
+======================================
+							CHART
+======================================
+*/
+
+.ct-grid {
+	stroke: rgba(0, 0, 0, 0.37);
+}
+
+.ct-label {
+	color: rgba(0, 0, 0, 0.53);
+	font-size: 1em;
+}
+
+.ct-series-a .ct-line,
+.ct-series-a .ct-point {
+  stroke: #BB3232;
+}
