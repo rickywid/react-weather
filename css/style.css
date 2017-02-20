@@ -85,6 +85,7 @@ hr {
 	border: none;
 	padding: 10px;
 	color: white;
+	min-height: 229px;
 }
 
 .panel-default > .panel-heading {
