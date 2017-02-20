@@ -18,7 +18,6 @@ class Header extends Component {
 
 	onHandleChange(e){
 		this.setState({ term: e.target.value })
-		//console.log(this.state.term);
 	}
 
 	onHandleSubmit(e){

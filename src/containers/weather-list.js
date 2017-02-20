@@ -19,32 +19,32 @@ class WeatherList extends Component{
 			return Math.round(num - 273);
 		}
 
-
+		console.log(data)
 		var city =  data.city.name;
 		var country = data.city.country;
 		var day_1 = kelvinToC(data.list[0].main.temp); // Temp in Kelvin
 		var day_2 = kelvinToC(data.list[10].main.temp);
 		var day_3 = kelvinToC(data.list[20].main.temp);
 		var day_4 = kelvinToC(data.list[30].main.temp);
-		var day_5 = kelvinToC(data.list[36].main.temp);
+		var day_5 = kelvinToC(data.list[35].main.temp);
 
 		var day_1_date = moment(data.list[0].dt * 1000).format("D"); //Day of month
 		var day_2_date = moment(data.list[10].dt * 1000).format("D");
 		var day_3_date = moment(data.list[20].dt * 1000).format("D");
 		var day_4_date = moment(data.list[30].dt * 1000).format("D");
-		var day_5_date = moment(data.list[36].dt * 1000).format("D");
+		var day_5_date = moment(data.list[35].dt * 1000).format("D");
 
 		var day_1_week = moment(data.list[0].dt * 1000).format("ddd"); //Day of week
 		var day_2_week = moment(data.list[10].dt * 1000).format("ddd");
 		var day_3_week = moment(data.list[20].dt * 1000).format("ddd");
 		var day_4_week = moment(data.list[30].dt * 1000).format("ddd");
-		var day_5_week = moment(data.list[36].dt * 1000).format("ddd");
+		var day_5_week = moment(data.list[35].dt * 1000).format("ddd");
 
 		var day_1_desc = data.list[0].weather[0].description; //Weather Description
 		var day_2_desc = data.list[10].weather[0].description;
 		var day_3_desc = data.list[20].weather[0].description;
 		var day_4_desc = data.list[30].weather[0].description;
-		var day_5_desc = data.list[36].weather[0].description;
+		var day_5_desc = data.list[35].weather[0].description;
 
 		var day_1_icon, day_2_icon, day_3_icon, day_4_icon, day_5_icon;
 
@@ -53,7 +53,7 @@ class WeatherList extends Component{
 		var day_2_label = moment(data.list[10].dt * 1000).format("ddd, D");
 		var day_3_label = moment(data.list[20].dt * 1000).format("ddd, D");
 		var day_4_label = moment(data.list[30].dt * 1000).format("ddd, D");
-		var day_5_label = moment(data.list[36].dt * 1000).format("ddd, D");
+		var day_5_label = moment(data.list[35].dt * 1000).format("ddd, D");
 
 	    var data = {
 	      labels: [day_1_label, day_2_label, day_3_label, day_4_label, day_5_label],
