@@ -63,7 +63,7 @@ hr {
 	font-size: 1em;
 	height: 34px;
 	margin-bottom: 10px;
-	color: rgba(132, 132, 132, 0.99);
+	color: #fff;
 }
 
 .btn-primary{
@@ -152,3 +152,4 @@ hr {
 		margin-top: 15px;
 	}
 }
+
