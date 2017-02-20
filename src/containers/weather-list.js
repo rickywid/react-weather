@@ -13,7 +13,7 @@ class WeatherList extends Component{
 		var day_2_main_desc = data.list[8].weather[0].main;
 		var day_3_main_desc = data.list[16].weather[0].main;
 		var day_4_main_desc = data.list[24].weather[0].main;
-		var day_5_main_desc = data.list[32].weather[0].main;
+		var day_5_main_desc = data.list[34].weather[0].main;
 
 		function kelvinToC(num){
 			return Math.round(num - 273);
