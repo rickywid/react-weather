@@ -9,7 +9,7 @@ export function GetWeatherAction(city, country){
 	const url = `${ROOT_URL}&q=${city},${country}`; 
 
 	const request = axios.get(url); 
-	console.log(request)	
+	
 	return {
 		type: FETCH_WEATHER,
 		payload: request    //redux-promise checks to see if the action has a promise as a payload.
