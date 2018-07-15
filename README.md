@@ -7,4 +7,6 @@ npm install
 npm start
 browser url: localhost:8080
 
+To compile code: npx webpack 
+
 ```
